@@ -1,3 +1,8 @@
+"""_summary_
+
+In this approach we utilized memoization , which is recursive top down approach.
+
+"""
 def knapsack(W,wt,val,N):
     
     def solve(n,capacity):
@@ -32,3 +37,5 @@ def knapsack(W,wt,val,N):
             return c
     
     solve(N,W)
+
+
